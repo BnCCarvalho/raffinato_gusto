@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 4.0rem 1.6rem;
-    row-gap: 4.0rem;
+    /* padding: 4.0rem 1.6rem;
+    row-gap: 4.0rem; */
+    padding: 2.4rem 1.6rem; 
+    row-gap: 2.4rem;
 }
 
 /* Imagens */
@@ -18,7 +20,8 @@
 
 .container__contato .container__contato--img img {
     border-radius: 3.2rem;
-    width: 100%;
+    /* width: 100%; */
+    width: 90%;
     max-width: 32.8rem;
 }
 
@@ -43,13 +46,15 @@
 .container__contato--form .container__contato--form-conteudo-titulo {
     font-family: "Krona One", sans-serif;
     white-space: nowrap;
-    font-size: 2.6rem;
+    /* font-size: 2.6rem; */
+    font-size: 2.4rem;
     color: var(--azul-escuro);
     font-weight: 400;
 }
 
 .container__contato--form-conteudo-texto {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    /* font-size: 1.5rem; */
     font-weight: 400;
 }
 
@@ -60,7 +65,8 @@
 
 .container__contato .container__contato--form .container__contato--inputs label,
 .container__contato .container__contato--form .container__contato--inputs .container__contato--inputs--titulo {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
+    font-size: 1.6rem;
     font-weight: 600;
     color: var(--lilas-escuro);
 }
@@ -70,7 +76,8 @@
     border-radius: 2.5rem;
     padding: 1.6rem;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    /* font-size: 1.5rem; */
 }
 
 .container__contato .container__contato--form .container__contato--inputs textarea {
@@ -80,7 +87,8 @@
 .container__contato .container__contato--form .container__contato--inputs .container__contato--inputs--div {
     display: flex;
     flex-direction: column;
-    row-gap: 3.5rem;
+    /* row-gap: 3.5rem; */
+    row-gap: 2.4rem;
     padding: 2rem;
 }
 
@@ -89,7 +97,8 @@
     border: none;
     border-radius: 2.5rem;
     color: white;
-    font-size: 2.4rem;
+    /* font-size: 2.4rem; */
+    font-size: 2.0rem;
     background: var(--azul-botao);
     font-weight: 600;
 }

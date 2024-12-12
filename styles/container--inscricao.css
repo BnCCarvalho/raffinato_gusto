@@ -4,7 +4,8 @@
     text-align: center;
     align-items: center;
     row-gap: 2.4rem;
-    padding: 4.0rem 1.6rem;
+    /* padding: 4.0rem 1.6rem; */
+    padding: 2.4rem 1.6rem;
 }
 
 .container__incricao--mobile {
@@ -17,27 +18,32 @@
 }
 
 .container__incricao .container__incricao--form-titulo {
-    font-size: 2.6rem;
+    /* font-size: 2.6rem; */
+    font-size: 2.4rem;
 }
 
 .container__incricao .container__incricao--form-texto {
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
+    font-size: 2rem;
 }
 
 .container__incricao .container__incricao--div {
     display: flex;
     flex-direction: column;
     row-gap: 2.4rem;
-    max-width: 110.2rem;
+    /* max-width: 110.2rem; */
+    max-width: 90%;
 }
 
 .container__incricao--form-input {
-    width: 32.8rem;
+    /* width: 32.8rem; */
+    width: 90%;
     height: 6.5rem;
     border-radius: 6.5rem;
     border: .1rem solid var(--azul-escuro);
     margin: 0 auto;
     display: inline-flex;
+    align-items: center;
     row-gap: 2.4rem;
 }
 

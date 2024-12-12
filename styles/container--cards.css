@@ -4,13 +4,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 8.0rem 1.6rem;
+  /* padding: 8.0rem 1.6rem; */
+  padding: 4.0rem 1.6rem;
   row-gap: 2.4rem;
 }
 
 .container .container__cards .container__cards--card {
   background: var(--gradiente-card);
-  max-width: 5rem;
+  /* max-width: 5rem; */
+  max-width: 90%;
   height: auto;
   padding: 1.6rem;
   text-align: center;
@@ -25,13 +27,15 @@
 }
 
 .container__cards--card-title {
-  font-size: 2.4rem;
-  padding: 2.4rem 1.6rem;
+  font-size: 2rem;
+  /* font-size: 2.4rem;
+  padding: 2.4rem 1.6rem; */
 }
 
 .container__cards--card-texto {
-  font-size: 1.3rem;
-  padding: 2.4rem 1.6rem;
+  font-size: 1.2rem;
+  /* font-size: 1.3rem;
+  padding: 2.4rem 1.6rem; */
 }
 
 .container__cards--card-link {

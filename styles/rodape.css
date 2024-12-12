@@ -1,15 +1,21 @@
 .rodape {
     background: var(--marrom);
-    padding: 3.2rem;
+    /* padding: 3.2rem; */
+    padding: 2rem 1.6rem;
     text-align: center;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
 }
 
 .rodape .rodape__nav--lista {
     display: flex;
-    justify-content: center;
-    gap: 3.5rem;
-    padding: 1.5rem 0;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* gap: 3.5rem;
+    padding: 1.5rem 0; */
+    gap: 2rem;
+    padding: 1rem 0;
 }
 
 .rodape .rodape__nav--lista .rodape__nav--lista--whatsapp::before {
